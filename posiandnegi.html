@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positive or Negative Number</title>
+</head>
+
+<style>
+    body{
+        background-color: black;
+        color: turquoise;
+        margin-top: 50px;
+    }
+</style>
+<body>
+    <center>
+    <script>
+        var number = window.prompt("Enter a number to check");
+
+        if (number > 0) {
+            document.write("<b>The given number is positive</b> <br />");
+        } else if (number < 0 ){
+            document.write("<b>The given number is negative</b>  <br />");
+        } else if (number == 0){
+            document.write("<b>The given number is neither positive nor negative</b>  <br />");
+        } else {
+            document.write("<b>Invalid Number</b> <br />");
+        }
+    </script>
+
+    <p>Write another number and see the decision change...</p>
+
+    </center>
+</body>
+</html>
