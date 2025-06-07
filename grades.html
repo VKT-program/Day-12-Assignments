@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade System</title>
+</head>
+<style>
+    body{
+        margin-top: 50pt;
+        background-color: black;
+        color: rgb(194, 22, 194);
+    }
+</style>
+<body>
+    <center>
+    <script> 
+      var grade= window.prompt("Enter your grade: (0-100)");
+        if (grade >= 90 && grade <= 100) {
+            document.write(" A+ <br />Good job <br />");
+        }else if (grade >= 80 && grade < 90) {
+            document.write("A <br /> Pretty good <br />");
+        } else if (grade >= 70 && grade < 80) {
+            document.write("B+ <br /> Passed <br />"); 
+        } else if (grade >= 60 && grade < 70) {
+            document.write("B <br /> Not so good <br />");
+        } else if (grade >= 50 && grade < 60) {
+            document.write("C <br /> Work hard <br />");
+        }else if (grade < 50 && grade >= 0) {
+            document.write("D <br /> Needs improvement <br />");
+        } else {
+            document.write("Invalid grade entered. Please enter a number between 0 and 100. <br />");
+        }
+
+    </script>
+
+    <p>This is your grade system.</p>
+    </center>
+</body>
+</html>
